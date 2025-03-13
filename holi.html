@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Holi By Hardik</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">Happy Holi By Hardik</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="btn btn-light" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#contactModal">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#aboutModal">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="myinfo">
+    <h1 class="holi">Hey there!</h1>
+    <h1>I am Hardik</h1>
+    <p>
+      Wishing you and your loved ones a very colorful Holi! 🎨 <br>
+      May this day bring you joy and laughter, leaving all worries behind!. <br>
+      <h2 class="hue">Happy Holi!</h2>
+    </p>
+    <button id="celebrateBtn" class="btn btn-warning">Celebrate</button>
+  </div>
+
+  <!-- Background Video -->
+  <video id="bgVideo" loop muted>
+    <source src="Happy Holi.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Color Splash Effect -->
+  <div id="colorSplash"></div>
+
+  <!-- Contact Modal -->
+  <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contactModalLabel">Contact Hardik</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p><strong>💌 Need a Personalized Website?
+            DM me on Instagram or Email me for custom greetings and website requests!</p>
+          <p><strong>📧 Email:</strong> hardikkumar2345@example.com</p>
+          <p><strong>📸 Instagram:</strong> @hardik_1174</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Modal -->
+  <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="aboutModalLabel">About Hardik</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Hi! I’m Hardik, a web designer who loves adding color and creativity to the digital world! 🌈💻
+
+            I create fun, festive, and interactive websites for special occasions like Holi 🎉. Whether it’s a personalized greeting page or a custom celebration website, I make it unique and joyful!
+            
+            Want your own custom website? DM me on Instagram or email me—let’s create something amazing together! 🚀💖</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap & Script -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
